@@ -5,6 +5,6 @@ title: Home
 ---
 
 ##Information on: 
-    * [Datasets]
-    * [Indicators]
-    * [Validation Rules]
+    * Datasets
+    * Indicators
+    * Validation Rules
