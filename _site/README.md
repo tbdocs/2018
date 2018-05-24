@@ -4,7 +4,7 @@ layout: page
 title: Home
 ---
 
-##Information on: 
+## Information on: 
 * Datasets
 * Indicators
 * Validation Rules
