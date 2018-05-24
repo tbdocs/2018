@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Datasets
+title: Our new datasets (or reports)
 ---
-
-### Our new datasets (or reports)
 * DR-TB 2018
 * TB Case Detection 2018
 * TB Treatment Outcomes 2018
