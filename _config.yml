@@ -1,1 +1,10 @@
+# basic options
+title: DHIS2 TB Docs
+author: TB Team
+email: makhatem@icap.org.ls
+description: Information hub for TB Reports, Datasets, Indicators and Validation Rules
+github_username:  tbdocs
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-cayman
