@@ -13,4 +13,4 @@ url: https://tbdocs.github.io/2018
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
