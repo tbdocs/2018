@@ -6,10 +6,10 @@ title: Indicators
 ### The following is list of associated indicators that were created:
 1. TB Notification All (INDTB-2018_1)
 
-| foo | bar | bar |
-| --- | --- | --- |
-| baz | bim | bar |
-| baz | bim | bar |
+|Dataset  | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
+| --- | --- | --- | --- |
+| Numerator | Sum of everything in block, excluding Bacteriologically Confirmed not Started on Treatment | Sum of everything in Block 1 | Sum of everything in Block 1 (leave out subtotals) |
+| Denominator | 1 |
 
 2. TB Notification New and Relapse
 3. TB Notification New and Relapse Pulmonary Bacteriologically confirmed
