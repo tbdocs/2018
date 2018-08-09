@@ -9,6 +9,7 @@ title: Indicators
 | foo | bar | bar |
 | --- | --- | --- |
 | baz | bim | bar |
+| baz | bim | bar |
 
 2. TB Notification New and Relapse
 3. TB Notification New and Relapse Pulmonary Bacteriologically confirmed
