@@ -5,9 +5,11 @@ title: Indicators
 
 ### The following is list of associated indicators that were created:
 1. TB Notification All (INDTB-2018_1)
+
 | foo | bar |
-|---- |---- |
-| data | data |
+| --- | --- |
+| baz | bim |
+
 2. TB Notification New and Relapse
 3. TB Notification New and Relapse Pulmonary Bacteriologically confirmed
 4. Bacteriologically Confirmed not initiated on treatment
