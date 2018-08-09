@@ -74,19 +74,19 @@ title: Indicators
 | Numerator | Block 5: sum of column HIV Positive on ART, row New and Relapse | N/A | N/A |
 | Denominator | Block: sum of column HIV Positive, column New and Relapse | N/A | N/A |
 
-* Proportion of HIV positive TB patients on CPT/Dapzone All
+* Proportion of HIV positive TB patients on CPT/Dapzone All (INDTB-2018_11)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 5: sum of column HIV Positive on CPT/Dapzone, row New and Relapse and row Retreatment excl. Relapse | Block 4: sum of column No. HIV Positive On CPT, row New Pulmonary, row Other New, row Retreatments | Block TB/HIV Activities: sum of column No. on CPT, row New Sputum Smear, row Other TB |
+| Denominator | Block 5: sum of column HIV Positive, column New and Relapse and row Retreatment excl. Relapse | Block 4: sum of column No. HIV Positive, row New Pulmonary, row Other New, row Retreatments | Block TB/HIV Activities: sum of column No. HIV Positive, row New Sputum Smear, row Other TB |
 
-* Proportion of HIV positive TB patients on CPT/Dapzone New and Relapse
+* Proportion of HIV positive TB patients on CPT/Dapzone New and Relapse (INDTB-2018_12)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 5: sum of column HIV Positive on CPT/Dapzone, column New and Relapse | N/A | N/A |
+| Denominator | Block 5: sum of column HIV Positive, column New and Relapse | N/A | N/A |
 
 * TB Treatment Success Rate All
 
@@ -102,136 +102,142 @@ title: Indicators
 | Numerator | foo | foo | foo |
 | Denominator | foo | foo | foo |
 
-* TB Death Rate All
+* TB Death Rate All (INDTB-2018_13)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Died, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column Died, all rows | Block 1: sum of column died, all rows  |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column No of Cases Registered, all rows | Block 1: sum of column Total number of cases registered |
 
-* TB Death Rate New and Relapse
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Lost to Followup Rate All
+* TB Death Rate New and Relapse (INDTB-2018_14)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Died, row New and Relapse | Block 1: sum of column Died, all rows | Block 1: sum of column Died, all rows  |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse | Block 1: sum of column No of Cases Registered, row New Pulmonary (B+), row Relapse B(+), row Extra pulmonary B(+), row New Pulmonary CD, row Relapse CD, row Retreatment (Excluding Relapse)-CD | Block 1: sum of column Total number of cases registered, row New, row 2.1 Relapses |
 
-* TB Lost to Followup Rate New and Relapse
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Not Evaluated Rate All
+* TB Lost to Followup Rate All (INDTB-2018_15)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Lost to Follow-up, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column Defaulted/LTFU, all rows | Block 1: sum of column Default(5), all rows  |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column No of Cases Registered, all rows | Block 1: sum of column Total number of cases registered |
 
-* TB Not Evaluated Rate New and Relapse
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Failure Rate All
+* TB Lost to Followup Rate New and Relapse (INDTB-2018_16)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Lost to Follow-up, row New and Relapse | Block 1: sum of column Defaulted/LTFU, all rows | Block 1: sum of column Default(5), all rows |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse | Block 1: sum of column No of Cases Registered, row New Pulmonary (B+), row Relapse B(+), row Extra pulmonary B(+), row New Pulmonary CD, row Relapse CD, row Retreatment (Excluding Relapse)-CD | Block 1: sum of column Total number of cases registered, row New, row 2.1 Relapses |
 
-* TB Failure Rate New and Relapse
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Treatment Success Rate Among HIV Positive All
+* TB Not Evaluated Rate All (INDTB-2018_17)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Not Evaluated, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column Not Evaluated, all rows | Block 1: sum of column Transfer Out(6),  column Total Number NOT Evaluated for outcomes, all rows  |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column No of Cases Registered, all rows | Block 1: sum of column Total number of cases registered |
 
-* TB Death Rate Among HIV Positive All
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Lost to Followup Rate Among HIV Positive All
+* TB Not Evaluated Rate New and Relapse (INDTB-2018_18)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Not Evaluated, row New and Relapse | Block 1: sum of column Not Evaluated, all rows | Block 1: sum of column Transfer Out(6), column Total Number NOT Evaluated for outcomes, all rows |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse | Block 1: sum of column No of Cases Registered, row New Pulmonary (B+), row Relapse B(+), row Extra pulmonary B(+), row New Pulmonary CD, row Relapse CD, row Retreatment (Excluding Relapse)-CD | Block 1: sum of column Total number of cases registered, row New, row 2.1 Relapses |
 
-* TB Not Evaluated Rate Among HIV Positive All
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Failure Rate Among HIV Positive All
+* TB Failure Rate All (INDTB-2018_19)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Failed
+(Susceptible), row New and Relapse, row Treatment excl Relapse
+ | Block 1: sum of column Failure, all rows | Block 1: sum of column Treatment Failure(4), all rows  |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse, row Treatment excl Relapse | Block 1: sum of column No of Cases Registered, all rows | Block 1: sum of column Total number of cases registered |
 
-* TB Proportion of Presumptive cases examined using a bacteriologic test
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* TB Positivity Yield
+* TB Failure Rate New and Relapse (INDTB-2018_20)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Failed
+(Susceptible), row New and Relapse
+ | Block 1: sum of column Failure, all rows | Block 1: sum of column Treatment Failure(4), all rows |
+| Denominator | Block 1: sum of column Total number of patients, row New and Relapse | Block 1: sum of column Failure, row New Pulmonary (B+), row Relapse B(+), row Extra pulmonary B(+), row New Pulmonary CD, row Relapse CD, row Retreatment (Excluding Relapse)-CD | Block 1: sum of column Total number of cases registered, row New, row 2.1 Relapses |
 
-* Proportion of contacts of PTB cases screened for TB
-
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
-
-* Proportion of Under 5 childhood contacts screened for TB
+* TB Treatment Success Rate Among HIV Positive All (INDTB-2018_21)
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Numerator | Block 1: sum of column Completed, column Cured, row All HIV positive | Block 3: sum of column Completed, column Cured, row HIV positive all types | Last block: sum of column Cure(1), column Treatment Completed (2), all rows |
+| Denominator | Block 1: sum of column Total number of patients, row All HIV positive | Block 3: sum of column Total number registered, row HIV positive all types | Last block: sum of column Total Number of Patients registered , all rows |
+
+* TB Death Rate Among HIV Positive All (INDTB-2018_22)
+
+| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
+| --- | --- | --- | --- |
+| Numerator | Block 1: sum of column Died, row All HIV positive | Block 3: sum of column Died, row HIV positive all types | Last block: sum of column Died(3), all rows |
+| Denominator | Block 1: sum of column Total number of patients, row All HIV positive | Block 3: sum of column Total number registered, row HIV positive all types | Last block: sum of column Total Number of Patients registered , all rows |
+
+* TB Lost to Followup Rate Among HIV Positive All (INDTB-2018_23)
+
+| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
+| --- | --- | --- | --- |
+| Numerator | Block 1: sum of column Lost to Follow-up, row All HIV positive | Block 3: sum of column Defaulted/LTFU, row HIV positive all types | Last block: sum of column Default(5), all rows |
+| Denominator | Block 1: sum of column Total number of patients, row All HIV positive | Block 3: sum of column Total number registered, row HIV positive all types | Last block: sum of column Total Number of Patients registered , all rows |
+
+* TB Not Evaluated Rate Among HIV Positive All (INDTB-2018_24)
+
+| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
+| --- | --- | --- | --- |
+| Numerator | Block 1: sum of column Lost to Follow-up, row All HIV positive | Block 3: sum of column Defaulted/LTFU, row HIV positive all types | Last block: sum of column Transfer Out(6), column Total Number NOT Evaluated for outcomes, all rows |
+| Denominator | Block 1: sum of column Total number of patients, row All HIV positive | Block 3: sum of column Total number registered, row HIV positive all types | Last block: sum of column Total Number of Patients registered , all rows |
+
+* TB Failure Rate Among HIV Positive All (INDTB-2018_25)
+
+| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
+| --- | --- | --- | --- |
+| Numerator | Block 1: sum of column Failed
+(Susceptible), row All HIV positive
+ | Block 3: sum of column Failure, row HIV positive all types | Last block: sum of column Treatment failure(4), all rows |
+| Denominator | Block 1: sum of column Total number of patients, row All HIV positive | Block 3: sum of column Total number registered, row HIV positive all types | Last block: sum of column Total Number of Patients registered , all rows |
+
+* TB Proportion of Presumptive cases examined using a bacteriologic test (INDTB-2018_26)
+
+| Dataset | TB Case Detection 2018 | Presumptive TB Cases |
+| --- | --- | --- |
+| Numerator | Block 1: Column c), row Total | Block 1: Column c) |
+| Denominator | Block 1: Column b), row Total | Block 1: Column b) |
+
+* TB Positivity Yield (INDTB-2018_27)
+
+| Dataset | TB Case Detection 2018 | Presumptive TB Cases |
+| --- | --- | --- |
+| Numerator | Block 1: Column d), row Total | Block 1: Column d) |
+| Denominator | Block 1: Column c), row Total | Block 1: Column c) |
+
+* Proportion of contacts of PTB cases screened for TB (INDTB-2018_28)
+
+| Dataset | TB Case Detection 2018 | Presumptive TB Cases |
+| --- | --- | --- |
+| Numerator | Block 2: column Number of contacts of PTB cases who are presumptive TB cases | N/A “because there are no contacts” |
+| Denominator | Block 2: column Total number of contacts of PTB cases | N/A “because there are no contacts” |
+
+* Proportion of Under 5 childhood contacts screened for TB (INDTB-2018_29)
+
+| Dataset | TB Case Detection 2018 | Presumptive TB Cases |
+| --- | --- | --- |
+| Numerator | Block 3: column Number of contacts <5 years screened for TB | N/A |
+| Denominator | Block 3: column Number of childhood contacts <5 years | N/A |
 
 * Proportion of Under 5 Childhood contacts without signs and symptoms of TB put on INH prophylaxis
 
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Dataset | TB Case Detection 2018 | Presumptive TB Cases |
+| --- | --- | --- |
+| Numerator | Block 3: column Number of contacts <5 years started on INH after ruling out signs and symptoms of TB | N/A |
+| Denominator | Block 3: column Number of contacts <5 years who are not presumptive TB cases | N/A |
 
-* Proportion of Under 5 Childhood contacts started on INH six months ago who completed their INH course
+* Proportion of Under 5 Childhood contacts started on INH six months ago who completed their INH course (INDTB-2018_31)
 
-| Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
-| --- | --- | --- | --- |
-| Numerator | foo | foo | foo |
-| Denominator | foo | foo | foo |
+| Dataset | TB Notification 2018 | TB_Notification_New |
+| --- | --- | --- |
+| Numerator | Block 4: column Number of contacts <5 years started on INH who completed their IPT course | N/A |
+| Denominator | Block 3: column Number of contacts <5 years started on INH | N/A |
 
