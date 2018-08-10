@@ -193,8 +193,7 @@ title: Indicators
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
 | Numerator | Block 1: sum of column Failed
-(Susceptible), row All HIV positive
- | Block 3: sum of column Failure, row HIV positive all types | Last block: sum of column Treatment failure(4), all rows |
+(Susceptible), row All HIV positive | Block 3: sum of column Failure, row HIV positive all types | Last block: sum of column Treatment failure(4), all rows |
 | Denominator | Block 1: sum of column Total number of patients, row All HIV positive | Block 3: sum of column Total number registered, row HIV positive all types | Last block: sum of column Total Number of Patients registered , all rows |
 
 * TB Proportion of Presumptive cases examined using a bacteriologic test (INDTB-2018_26)
