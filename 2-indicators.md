@@ -157,9 +157,7 @@ title: Indicators
 
 | Dataset | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | Block 1: sum of column Failed
-(Susceptible), row New and Relapse
- | Block 1: sum of column Failure, all rows | Block 1: sum of column Treatment Failure(4), all rows |
+| Numerator | Block 1: sum of column Failed (Susceptible), row New and Relapse | Block 1: sum of column Failure, all rows | Block 1: sum of column Treatment Failure(4), all rows |
 | Denominator | Block 1: sum of column Total number of patients, row New and Relapse | Block 1: sum of column Failure, row New Pulmonary (B+), row Relapse B(+), row Extra pulmonary B(+), row New Pulmonary CD, row Relapse CD, row Retreatment (Excluding Relapse)-CD | Block 1: sum of column Total number of cases registered, row New, row 2.1 Relapses |
 
 * TB Treatment Success Rate Among HIV Positive All (INDTB-2018_21)
