@@ -4,11 +4,7 @@ title: Validation Rules
 ---
 
 ### To ensure optimal quality of data, the following validation rules were setup. We have named them according to which dataset they apply
-1. Dataset1
-    * vr1
-2. Dataset2
-    * vr2
-3. Unsorted list of all validation rules. We'll later sort the according to which datasets they're meant to apply to. This is meant for you to deal better with these validation rules when they pop out.
+* Unsorted list of all validation rules. We'll later sort the according to which datasets they're meant to apply to. This is meant for you to deal better with these validation rules when they pop out.
 
 | Dataset| Validation Rules |
 | --- | --- |
