@@ -8,14 +8,14 @@ title: Indicators
 
 |Dataset  | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | Sum of everything in block, excluding Bacteriologically Confirmed not Started on Treatment | Sum of everything in Block 1 | Sum of everything in Block 1 (leave out subtotals) |
+| Numerator | Sum of everything in block 1, excluding Bacteriologically Confirmed not Started on Treatment | Sum of everything in Block 1 | Sum of everything in Block 1 (leave out subtotals) |
 | Denominator | 1 | 1 | 1 |
 
 * TB Notification New and Relapse (INDTB-2018_2)
 
 |Dataset  | TB Notification 2018 | TB_Notification_New | TB Case Registration Old |
 | --- | --- | --- | --- |
-| Numerator | Sum of everything in block, excluding Bacteriologically Confirmed not Started on Treatment, and also exclude Retreatment excluding Relapse | Sum of everything in Block 1, excluding Treatment After loss to Follow-up, Treatment after Failure and Other Previously Treated | Sum of everything in Block 1 uner New (Pulmonary) (leave out subtotals) and Relapse (previously treated) |
+| Numerator | Sum of everything in block 1, excluding Bacteriologically Confirmed not Started on Treatment, and also exclude Retreatment excluding Relapse | Sum of everything in Block 1, excluding Treatment After loss to Follow-up, Treatment after Failure and Other Previously Treated | Sum of everything in Block 1 uner New (Pulmonary) (leave out subtotals) and Relapse (previously treated) |
 | Denominator | 1 | 1 | 1 |
 
 * TB Notification New and Relapse Pulmonary Bacteriologically confirmed (INDTB-2018_3)
