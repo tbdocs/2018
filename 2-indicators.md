@@ -238,3 +238,16 @@ title: Indicators
 | Numerator | Block 4: column Number of contacts <5 years started on INH who completed their IPT course | N/A |
 | Denominator | Block 3: column Number of contacts <5 years started on INH | N/A |
 
+* TB Treatment Success Rate New & Relapse (INDTB-2018_32)
+
+| Dataset | TB Treatment Outcomes 2018 | TB Treatment Outcomes New | TB Treatment Outcomes Old |
+| --- | --- | --- | --- |
+| Numerator | Block 1: Sum of column Completed, column Cured - row New & Relapse | Block 1: Block 1: Sum column Cured, Completed - rows  New  Pulmonary (B+) , Extra pulmonary B(+), New Pulmonary CD,  New Extra pulmonary CD, Relapse B(+) and Relapse CD | Block 1: Block 1 sum of column cured and completed of row New (1.1 Smear positive, 1.2 Smear Neg and not done and 1.4 EP) and 2.1 Relapse |
+| Denominator | Block 1: Sum column Total number of patients of row New and Relapse | Block 1 Sum column Total No. of Patients registered of row New  Pulmonary (B+) , Extra pulmonary B(+), New Pulmonary CD,  New Extra pulmonary CD, Relapse B(+) and Relapse CD| Block 1 Sum column Total No. of Patients registered during Quarter Reported on row New (1.1 Smear positive, 1.2 Smear Neg and not done and 1.4 EP) and 2.1 Relapse |
+
+* TB Treatment Success All (INDTB-2018_33)
+
+| Dataset | TB Treatment Outcomes 2018 | TB Treatment Outcomes New | TB Treatment Outcomes Old |
+| --- | --- | --- | --- |
+| Numerator | Block 1 Sum of columns completed and cured of row New and Relapse and Retreatment excluding relapse | Block 1 Sum of columns completed and cured of row New Pulmonary B+, Relapse B+, Extra pulmonary B+, Retreatment(excluding relapse) B+, New pulmonary CD, Retreatment(excluding relapse) CD  and New extra pulmonary CD | Block 1 sum of column cured and completed of row 1.New, 2.Retreatment (smear positive) and 3.Other previously treated |
+| Denominator | Block 1 sum column total number of patients of row New and Relapse and Retreatment excluding relapses | Block 1 Sum column No of cases registered  of row New Pulmonary B+, Relapse B+, Extra pulmonary B+, Retreatment(excluding relapse) B+, New pulmonary CD, Retreatment(excluding relapse) CD  and New extra pulmonary CD | Block 1 Sum column Total No. of Patients registered during Quarter Reported on row New, Retreatment (smear positive) and Other previously treated |
